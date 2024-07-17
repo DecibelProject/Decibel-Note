@@ -1,0 +1,34 @@
+if(File.Exists("DeveloperMode\\On.ini"))
+{
+string programmName = Properties.Settings.Default.programmName;
+            OpenFileDialog openDocument = new OpenFileDialog();
+            openDocument.Title = "Открыть текстовый документ";
+            openDocument.Filter = "Текстовые файлы (*.txt) |*.txt| Batch (*.bat) |*.bat| Html (*.html) |*.html| Java Script (*.js) |*.js| Visual Basic Script (*.vbs) |*.vbs| Css (*.css) |*.css| Ini (*.ini) |*.ini| Cs (*.cs) |*.cs| Приложение Windows (*.exe) |*.exe| Все файлы (*.*)|*.*";
+            if (openDocument.ShowDialog() == DialogResult.OK)
+            {
+                FileStream file = new FileStream(openDocument.FileName, FileMode.Open, FileAccess.Read);
+                StreamReader reader = new StreamReader(file, Encoding.Default);
+                notebox.Text = reader.ReadToEnd();
+                reader.Close();
+                docPath = openDocument.FileName;
+                tbChange = false;
+                Form1.ActiveForm.Text = openDocument.SafeFileName + " — " + programmName;
+            }
+}
+else
+{
+string programmName = Properties.Settings.Default.programmName;
+            OpenFileDialog openDocument = new OpenFileDialog();
+            openDocument.Title = "Открыть текстовый документ";
+            openDocument.Filter = "Текстовые файлы (*.txt) |*.txt| Все файлы (*.*)|*.*";
+            if (openDocument.ShowDialog() == DialogResult.OK)
+            {
+                FileStream file = new FileStream(openDocument.FileName, FileMode.Open, FileAccess.Read);
+                StreamReader reader = new StreamReader(file, Encoding.Default);
+                notebox.Text = reader.ReadToEnd();
+                reader.Close();
+                docPath = openDocument.FileName;
+                tbChange = false;
+                Form1.ActiveForm.Text = openDocument.SafeFileName + " — " + programmName;
+            }
+}

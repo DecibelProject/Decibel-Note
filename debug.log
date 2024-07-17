@@ -1,0 +1,177 @@
+[0715/000423.664:INFO:CONSOLE(1577)] "Uncaught SyntaxError: Unexpected token 'export'", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js (1577)
+[0715/000423.665:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-auth.js (1)
+[0715/000423.666:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-storage.js (1)
+[0715/000423.670:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js (1)
+[0715/000423.673:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-database.js (1)
+[0715/000444.330:WARNING:sqlite_persistent_store_backend_base.cc(163)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:211 to client_task_runner_.
+[0715/000444.330:WARNING:sqlite_persistent_store_backend_base.cc(163)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:211 to client_task_runner_.
+[0715/000457.951:INFO:CONSOLE(1577)] "Uncaught SyntaxError: Unexpected token 'export'", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js (1577)
+[0715/000457.952:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-auth.js (1)
+[0715/000457.953:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-storage.js (1)
+[0715/000457.957:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js (1)
+[0715/000457.958:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-database.js (1)
+[0715/000522.983:INFO:CONSOLE(1577)] "Uncaught SyntaxError: Unexpected token 'export'", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js (1577)
+[0715/000522.984:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-auth.js (1)
+[0715/000522.985:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-storage.js (1)
+[0715/000522.990:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js (1)
+[0715/000522.992:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-database.js (1)
+[0715/000537.058:INFO:CONSOLE(1577)] "Uncaught SyntaxError: Unexpected token 'export'", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js (1577)
+[0715/000537.059:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-auth.js (1)
+[0715/000537.059:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-storage.js (1)
+[0715/000537.064:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js (1)
+[0715/000537.065:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-database.js (1)
+[0715/002007.404:INFO:CONSOLE(32)] "Uncaught TypeError: Cannot read properties of null (reading 'style')", source: file:///Decibel/JavaScript.Js (32)
+[0715/002007.407:WARNING:quota_database.cc(1011)] Quota database is too new.
+[0715/002007.407:ERROR:quota_database.cc(925)] Could not open the quota database, resetting.
+[0715/002334.189:INFO:CONSOLE(80)] "Uncaught ReferenceError: CodeMirror is not defined", source: file:///Decibel/JavaScript.Js (80)
+[0715/002501.545:INFO:CONSOLE(69)] "User registered: [object Object]", source: file:///Decibel/JavaScript.Js (69)
+[0715/002501.545:INFO:CONSOLE(74)] "Error registering: TypeError: Cannot read properties of null (reading 'style')", source: file:///Decibel/JavaScript.Js (74)
+[0715/002652.787:INFO:CONSOLE(80)] "Uncaught ReferenceError: CodeMirror is not defined", source: file:///Decibel/JavaScript.Js (80)
+[0715/003225.046:INFO:CONSOLE(49)] "User signed in: [object Object]", source: file:///Decibel/JavaScript.Js (49)
+[0715/003225.068:INFO:CONSOLE(1577)] "Uncaught SyntaxError: Unexpected token 'export'", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js (1577)
+[0715/003225.073:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js (1)
+[0715/003225.074:INFO:CONSOLE(13)] "Uncaught ReferenceError: firebase is not defined", source: file:///Decibel/DecibelEditorJavaScript.Js (13)
+[0715/003329.092:INFO:CONSOLE(49)] "User signed in: [object Object]", source: file:///Decibel/JavaScript.Js (49)
+[0715/003329.101:INFO:CONSOLE(1577)] "Uncaught SyntaxError: Unexpected token 'export'", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js (1577)
+[0715/003329.101:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js (1)
+[0715/003329.115:INFO:CONSOLE(13)] "Uncaught ReferenceError: firebase is not defined", source: file:///Decibel/DecibelEditorJavaScript.Js (13)
+[0715/003501.953:INFO:CONSOLE(53)] "Error signing in: [object Object]", source: file:///Decibel/JavaScript.Js (53)
+[0715/003513.319:INFO:CONSOLE(49)] "User signed in: [object Object]", source: file:///Decibel/JavaScript.Js (49)
+[0715/003513.338:INFO:CONSOLE(1577)] "Uncaught SyntaxError: Unexpected token 'export'", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js (1577)
+[0715/003513.343:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-auth.js (1)
+[0715/003513.344:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-storage.js (1)
+[0715/003513.347:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js (1)
+[0715/003513.347:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-database.js (1)
+[0715/003513.351:INFO:CONSOLE(10)] "Uncaught ReferenceError: firebase is not defined", source: file:///Decibel/DecibelJavaScript.Js (10)
+[0715/172142.884:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172143.188:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172144.470:INFO:CONSOLE(1)] "Uncaught Error: A network error (such as timeout, interrupted connection or unreachable host) has occurred.", source: https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js (1)
+[0715/172147.668:INFO:CONSOLE(53)] "Error signing in: [object Object]", source: file:///Decibel/JavaScript.Js (53)
+[0715/172147.900:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172148.210:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172157.916:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172158.213:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172201.128:INFO:CONSOLE(53)] "Error signing in: [object Object]", source: file:///Decibel/JavaScript.Js (53)
+[0715/172217.931:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172218.216:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172314.592:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172314.592:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172315.117:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172315.117:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172320.124:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172320.124:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172330.128:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172330.138:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172344.154:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0715/172350.139:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172350.155:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/172407.036:INFO:CONSOLE(53)] "Error signing in: [object Object]", source: file:///Decibel/JavaScript.Js (53)
+[0715/184147.112:INFO:CONSOLE(49)] "User signed in: [object Object]", source: file:///Decibel/JavaScript.Js (49)
+[0715/184147.160:INFO:CONSOLE(1577)] "Uncaught SyntaxError: Unexpected token 'export'", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js (1577)
+[0715/184147.163:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-auth.js (1)
+[0715/184147.163:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-storage.js (1)
+[0715/184147.168:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js (1)
+[0715/184147.170:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-database.js (1)
+[0715/184147.172:INFO:CONSOLE(10)] "Uncaught ReferenceError: firebase is not defined", source: file:///Decibel/DecibelJavaScript.Js (10)
+[0715/184301.468:INFO:CONSOLE(49)] "User signed in: [object Object]", source: file:///Decibel/JavaScript.Js (49)
+[0715/184310.182:INFO:CONSOLE(20)] "[object DOMException]", source: file:///Decibel/decibeleditorjavascript.js (20)
+[0715/184317.570:INFO:CONSOLE(20)] "[object DOMException]", source: file:///Decibel/decibeleditorjavascript.js (20)
+[0715/184333.602:INFO:CONSOLE(20)] "[object DOMException]", source: file:///Decibel/decibeleditorjavascript.js (20)
+[0715/184339.511:INFO:CONSOLE(20)] "[object DOMException]", source: file:///Decibel/decibeleditorjavascript.js (20)
+[0715/184348.065:INFO:CONSOLE(20)] "[object DOMException]", source: file:///Decibel/decibeleditorjavascript.js (20)
+[0715/184443.877:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0715/193828.837:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/193828.844:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/195731.064:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/195731.068:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/201310.194:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/201310.231:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/205341.684:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/205341.693:WARNING:dns_config_service_win.cc(584)] Failed to read DnsConfig.
+[0715/205509.966:INFO:CONSOLE(20)] "[object DOMException]", source: file:///Decibel/decibeleditorjavascript.js (20)
+[0715/205834.848:INFO:CONSOLE(49)] "User signed in: [object Object]", source: file:///Decibel/JavaScript.Js (49)
+[0715/205841.073:INFO:CONSOLE(59)] "Uncaught ReferenceError: JSZip is not defined", source: file:///Decibel/decibeleditorjavascript.js (59)
+[0715/205841.756:INFO:CONSOLE(59)] "Uncaught ReferenceError: JSZip is not defined", source: file:///Decibel/decibeleditorjavascript.js (59)
+[0715/205841.887:INFO:CONSOLE(59)] "Uncaught ReferenceError: JSZip is not defined", source: file:///Decibel/decibeleditorjavascript.js (59)
+[0715/205842.005:INFO:CONSOLE(59)] "Uncaught ReferenceError: JSZip is not defined", source: file:///Decibel/decibeleditorjavascript.js (59)
+[0715/205842.136:INFO:CONSOLE(59)] "Uncaught ReferenceError: JSZip is not defined", source: file:///Decibel/decibeleditorjavascript.js (59)
+[0716/010833.067:INFO:CONSOLE(49)] "User signed in: [object Object]", source: file:///Decibel/JavaScript.Js (49)
+[0716/010926.320:INFO:CONSOLE(49)] "User signed in: [object Object]", source: file:///Decibel/JavaScript.Js (49)
+[0716/014053.332:WARNING:sqlite_persistent_store_backend_base.cc(176)] Cookie database is too new.
+[0716/144424.837:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0716/150822.890:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0716/160715.006:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0716/161408.290:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0716/163622.156:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0716/170004.936:INFO:CONSOLE(1577)] "Uncaught SyntaxError: Unexpected token 'export'", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js (1577)
+[0716/170004.940:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-auth.js (1)
+[0716/170004.989:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-storage.js (1)
+[0716/170005.068:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js (1)
+[0716/170005.069:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-database.js (1)
+[0716/170005.081:INFO:CONSOLE(36)] "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')", source: file:///C:/Users/user/Decibel/Decibel%20Notepad/Decibel%20Notepad/Decibel%20Notepad/bin/Debug/Decibel/DecibelJavaScript.Js (36)
+[0716/170238.838:INFO:CONSOLE(1577)] "Uncaught SyntaxError: Unexpected token 'export'", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js (1577)
+[0716/170238.860:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-auth.js (1)
+[0716/170238.860:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-storage.js (1)
+[0716/170238.894:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js (1)
+[0716/170238.894:INFO:CONSOLE(1)] "Uncaught SyntaxError: Cannot use import statement outside a module", source: https://www.gstatic.com/firebasejs/9.1.2/firebase-database.js (1)
+[0716/170238.902:INFO:CONSOLE(36)] "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')", source: file:///C:/Users/user/Decibel/Decibel%20Notepad/Decibel%20Notepad/Decibel%20Notepad/bin/Debug/Decibel/DecibelJavaScript.Js (36)
+[0716/170433.532:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0716/170909.537:ERROR:cache_util_win.cc(20)] Unable to move the cache: Отказано в доступе. (0x5)
+[0716/170909.543:ERROR:disk_cache.cc(205)] Unable to create cache
+[0716/170909.543:ERROR:shader_disk_cache.cc(617)] Shader Cache Creation failed: -2
+[0716/171110.773:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0716/173351.585:ERROR:cache_util_win.cc(20)] Unable to move the cache: Отказано в доступе. (0x5)
+[0716/173351.585:ERROR:disk_cache.cc(205)] Unable to create cache
+[0716/173351.585:ERROR:shader_disk_cache.cc(617)] Shader Cache Creation failed: -2
+[0716/173358.475:ERROR:cache_util_win.cc(20)] Unable to move the cache: Отказано в доступе. (0x5)
+[0716/173358.481:ERROR:disk_cache.cc(205)] Unable to create cache
+[0716/173358.481:ERROR:shader_disk_cache.cc(617)] Shader Cache Creation failed: -2
+[0716/173407.593:INFO:CONSOLE(11)] "Uncaught ReferenceError: toggleMenu is not defined", source: file:///C:/Users/user/Decibel/Decibel%20Notepad/Decibel%20Notepad/Decibel%20Notepad/bin/Debug/Decibel/decibel%20note.html (11)
+[0716/173408.162:INFO:CONSOLE(19)] "Uncaught ReferenceError: toggleMenu is not defined", source: file:///C:/Users/user/Decibel/Decibel%20Notepad/Decibel%20Notepad/Decibel%20Notepad/bin/Debug/Decibel/decibel%20note.html (19)
+[0716/173408.656:INFO:CONSOLE(28)] "Uncaught ReferenceError: toggleMenu is not defined", source: file:///C:/Users/user/Decibel/Decibel%20Notepad/Decibel%20Notepad/Decibel%20Notepad/bin/Debug/Decibel/decibel%20note.html (28)
+[0716/173409.879:INFO:CONSOLE(19)] "Uncaught ReferenceError: toggleMenu is not defined", source: file:///C:/Users/user/Decibel/Decibel%20Notepad/Decibel%20Notepad/Decibel%20Notepad/bin/Debug/Decibel/decibel%20note.html (19)
+[0716/173410.270:INFO:CONSOLE(11)] "Uncaught ReferenceError: toggleMenu is not defined", source: file:///C:/Users/user/Decibel/Decibel%20Notepad/Decibel%20Notepad/Decibel%20Notepad/bin/Debug/Decibel/decibel%20note.html (11)
+[0716/173410.558:INFO:CONSOLE(28)] "Uncaught ReferenceError: toggleMenu is not defined", source: file:///C:/Users/user/Decibel/Decibel%20Notepad/Decibel%20Notepad/Decibel%20Notepad/bin/Debug/Decibel/decibel%20note.html (28)
+[0716/174205.953:INFO:CONSOLE(36)] "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')", source: file:///C:/Users/user/Decibel/Decibel%20Notepad/Decibel%20Notepad/Decibel%20Notepad/bin/Debug/Decibel/DecibelJavaScript.Js (36)
+[0716/175553.530:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0716/175852.001:INFO:CONSOLE(53)] "Error signing in: [object Object]", source: file:///Decibel/JavaScript.Js (53)
+[0716/180037.387:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0716/181249.921:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0716/181803.097:ERROR:cache_util_win.cc(20)] Unable to move the cache: Отказано в доступе. (0x5)
+[0716/181803.097:ERROR:disk_cache.cc(205)] Unable to create cache
+[0716/181803.097:ERROR:shader_disk_cache.cc(617)] Shader Cache Creation failed: -2
+[0716/182004.279:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0716/183705.192:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0716/221617.188:INFO:CONSOLE(36)] "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')", source: file:///C:/Users/user/Decibel/Decibel%20Notepad/Decibel%20Notepad/Decibel%20Notepad/bin/Debug/Decibel/DecibelJavaScript.Js (36)
+[0716/222147.694:INFO:CONSOLE(36)] "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')", source: file:///C:/Users/user/Decibel/Decibel%20Notepad/Decibel%20Notepad/Decibel%20Notepad/bin/Debug/Decibel/DecibelJavaScript.Js (36)
+[0716/222252.075:INFO:CONSOLE(69)] "Error registering: [object Object]", source: file:///Decibel/JavaScript.Js (69)
+[0716/222906.184:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0716/224219.127:INFO:CONSOLE(75)] "Uncaught TypeError: Cannot read properties of null (reading 'offsetHeight')", source: file:///Decibel/Decibel.Html (75)
+[0716/224254.300:ERROR:cache_util_win.cc(20)] Unable to move the cache: Отказано в доступе. (0x5)
+[0716/224254.300:ERROR:disk_cache.cc(205)] Unable to create cache
+[0716/224254.300:ERROR:shader_disk_cache.cc(617)] Shader Cache Creation failed: -2
+[0716/224254.579:INFO:CONSOLE(80)] "Uncaught ReferenceError: setNegativeMarginTop is not defined", source: file:///Decibel/Decibel.Html (80)
+[0716/224354.701:ERROR:cache_util_win.cc(20)] Unable to move the cache: Отказано в доступе. (0x5)
+[0716/224354.703:ERROR:disk_cache.cc(205)] Unable to create cache
+[0716/224354.703:ERROR:shader_disk_cache.cc(617)] Shader Cache Creation failed: -2
+[0716/224419.890:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0716/224429.803:INFO:CONSOLE(36)] "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')", source: file:///C:/Users/user/Decibel/Decibel%20Notepad/Decibel%20Notepad/Decibel%20Notepad/bin/Debug/Decibel/DecibelJavaScript.Js (36)
+[0716/225002.227:INFO:CONSOLE(36)] "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')", source: file:///C:/Users/user/Decibel/Decibel%20Notepad/Decibel%20Notepad/Decibel%20Notepad/bin/Debug/Decibel/DecibelJavaScript.Js (36)
+[0716/225032.943:INFO:CONSOLE(36)] "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')", source: file:///C:/Users/user/Decibel/Decibel%20Notepad/Decibel%20Notepad/Decibel%20Notepad/bin/Debug/Decibel/DecibelJavaScript.Js (36)
+[0716/234731.340:INFO:CONSOLE(9)] "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')", source: file:///C:/Users/user/Decibel/Decibel%20Notepad/Decibel%20Notepad/Decibel%20Notepad/bin/Debug/Decibel/DecibelJavaScript.Js (9)
+[0717/003838.984:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0717/184352.651:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 17179869185 [4,1] will be ignored
+[0717/185021.929:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0717/214415.498:INFO:CONSOLE(49)] "User signed in: [object Object]", source: file:///Decibel/JavaScript.Js (49)
+[0717/221836.071:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 17179869185 [4,1] will be ignored
+[0717/221836.405:INFO:CONSOLE(1118)] "Unrecognized feature: 'web-share'.", source: https://codepen.io/teknik2008/pen/oeWQgo (1118)
+[0717/221837.586:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803782 [6,6]
+[0717/221837.586:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803782 [6,6]
+[0717/221837.586:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803782 [6,6]
+[0717/221837.586:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803782 [6,6]
+[0717/221837.593:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803782 [6,6]
+[0717/221837.800:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 21474836488 [5,8] will be ignored
+[0717/221837.800:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 21474836488 [5,8] will be ignored
+[0717/221842.164:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 21474836486 [5,6] will be ignored
+[0717/221842.167:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 21474836484 [5,4] will be ignored
+[0717/232624.208:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
