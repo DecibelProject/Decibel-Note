@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="DecibelCss.Css">
+</head>
+<body>
+     <div class="navbar">
+        <div class="nav-item" onclick="toggleMenu(event, 'menu1')">
+            <img src="Context/File.svg" alt="Файл"> Файл
+            <div id="menu1" class="context-menu">
+                <a href="#"><img src="Context/Create.svg" alt="Создать">Создать</a>
+                <a href="#"><img src="Context/Open.svg" alt="Открыть">Открыть</a>
+                <a href="#" id="saveContent"><img src="Context/Save.svg" alt="Сохранить">Сохранить</a>
+            </div>
+        </div>
+        <div class="nav-item" onclick="toggleMenu(event, 'menu2')">
+            <img src="Context/Edit.svg" alt="Правка"> Правка
+            <div id="menu2" class="context-menu">
+                <a href="#"><img src="Context/Undo.svg" alt="Отменить">Отменить</a>
+                <a href="#"><img src="Context/Cut.svg" alt="Вырезать">Вырезать</a>
+                <a href="#"><img src="Context/Copy.svg" alt="Копировать">Копировать</a>
+                <a href="#"><img src="Context/Paste.svg" alt="Вставить">Вставить</a>
+            </div>
+        </div>
+                 <div class="nav-item" onclick="toggleMenu(event, 'menu4')">
+            <img src="Context/Project.svg" alt="Проект"> Проект
+            <div id="menu4" class="context-menu">
+                <a href="#"><img src="Context/Export.svg" alt="Отменить">Экспорт Zip</a>
+                <a href="#"><img src="Context/Files.svg" alt="Вырезать">Все файлы</a>
+                <a href="#" id="addFileBtn"><img src="Context/Create.svg" alt="Копировать">Создать файл</a>
+            <a href="#" id="createProjectBtn"><img src="Context/Files.svg" alt="Вырезать">Создать проект</a>
+                
+                <a href="#" id="openProjectBtn"><img src="Context/Open.svg" alt="Вставить">Открыть</a>
+            </div>
+        </div>
+        <div class="nav-item" onclick="toggleMenu(event, 'menu3')">
+            <img src="Context/View.svg" alt="Вид"> Вид
+            <div id="menu3" class="context-menu">
+                <a href="#"><img src="https://via.placeholder.com/16" alt="Масштаб">Масштаб</a>
+                <a href="#"><img src="https://via.placeholder.com/16" alt="Полный экран">Полный экран</a>
+            </div>
+        </div>
+    </div>
+    <Div Id = "DecibelContent">
+        <Div Id = "Loader" Align = "Center">
+  <Img Src = "Images/Gif.gif" Width = "270Px" Height = "200Px" Alt = "Logo">
+<H1>Decibel Note</H1>
+  <Div Class = "Loading"></Div>
+  </Div>
+  <Script>
+  document.addEventListener('DOMContentLoaded', function () {
+      setTimeout(function () {
+          var block = document.getElementById('Loader');
+          block.classList.add('hidden');
+
+          // Дополнительно можно удалить блок из DOM через 1 секунду после анимации
+          setTimeout(function () {
+              block.style.display = 'none';
+          }, 1000);
+      }, 1000);
+  });
+
+  </Script>
+  <div id="dashboard-container">
+    <img src = "images/cloud.png" Width = "75px"height="75px"/>
+    <h2>Облачный проект</h2>
+    <P>Создание на сервере и привязка к вашему аккаунту с возможностью последующего редактирования онлайн.</P>
+    <button id="create-cloud-project">Создать</button>
+  </div>
+  <div id="dashboard-container">
+    <img src = "images/disk.png" Width = "75px"height="75px"/>
+    <h2>Локальный проект</h2>
+    <P>Создание этого проекта на диске вашего компьютера с возможностью открывать файлы с диска без синхронизации.</P>
+    <button id="createProjectBtn">Создать</button>
+  </div>
+  <div id="dashboard-container">
+    <img src = "images/disk.png" Width = "75px"height="75px"/>
+    <h2>Открыть папку проекта</h2>
+    <P>Создание этого проекта на диске вашего компьютера с возможностью открывать файлы с диска без синхронизации.</P>
+    <button id="openProjectBtn">Открыть</button>
+  </div>
+  <div id="cloud-project-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button" id="close-cloud-modal">&times;</span>
+      <h2>Create Cloud Project</h2>
+      <input type="text" id="cloud-project-name" placeholder="Project Name">
+      <button id="save-cloud-project">Save</button>
+    </div>
+  </div>
+    
+
+
+       <!-- Контейнер для отображения списка файлов -->
+    <div id="fileListContainer" style="display: none;">
+        <h3>Файлы проекта</h3>
+        <ul id="fileList"></ul>
+    </div>
+
+    <!-- Модальное окно для ввода имени проекта -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <div id="ProjectFrame">
+           <a href="#"><button class="closeProjectModal" id="closeProjectModal"><img src="Images/Close.png"/></button></a>
+            <h4 align="left">Создать проект</h4>
+                            <h2>Создать проект</h2>
+            <input type="text" id="projectName" placeholder="Введите имя проекта">
+            <button id="createProject">Создать</button>
+            </div></div>
+        </div>
+    </div>
+
+    <!-- Модальное окно для выбора типа файла -->
+    <div id="fileTypeModal" class="modal">
+        <div class="modal-content">
+                        <div id="ProjectFrame">
+           <a href="#"><button class="closeProjectModal" id="closeFileTypeModal"><img src="Images/Close.png"/></button></a>
+                        <h4 align="left">Создать проект</h4>
+                            <h2>Создать файл</h2>
+            <select id="fileType">
+                <option value=".html">.Html</option>
+                <option value=".css">.Css</option>
+                <option value=".js">.Js</option>
+            </select>
+            <button id="selectFileType">Создать</button>
+        </div>
+        </div>
+    </div>
+
+    <!-- Модальное окно для ввода имени файла -->
+    <div id="fileNameModal" class="modal">
+        <div class="modal-content">
+            <div id="ProjectFrame">
+           <a href="#"><button class="closeProjectModal" id="closeFileNameModal"><img src="Images/Close.png"/></button></a>
+                <h4 align="left">Введите имя файла</h4>
+            <h2>Введите имя файла</h2>
+            <input type="text" id="fileName" placeholder="Введите имя файла">
+            <button id="saveFile">Сохранить</button>
+            </div></div>
+    </div>
+
+    <!-- Текстовый редактор -->
+    <div id="editorModal" class="modal">
+
+            <span class="close" id="closeEditorModal">&times;</span>
+            <textarea id="editor"></textarea>
+
+    </div>
+    
+    <div id="customAlert" class="alert">
+        <div class="alert-content">
+            <span class="alert-header">Заголовок</span>
+            <p>Это текст сообщения.</p>
+            <button id="okButton">Ок</button>
+        </div>
+    </div>
+        </Div>
+      
+  <script src="DecibelJavaScript.Js"></script>
+         <script>
+        function toggleMenu(event, menuId) {
+            event.stopPropagation();
+
+            // Close all context menus
+            const menus = document.querySelectorAll('.context-menu');
+            menus.forEach(menu => {
+                if (menu.id !== menuId) {
+                    menu.style.display = 'none';
+                }
+            });
+
+            // Toggle the selected menu
+            const menu = document.getElementById(menuId);
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+
+        // Close the context menu if clicked outside
+        window.onclick = function(event) {
+            if (!event.target.matches('.nav-item') && !event.target.matches('.nav-item img') && !event.target.closest('.context-menu')) {
+                const menus = document.querySelectorAll('.context-menu');
+                menus.forEach(menu => {
+                    menu.style.display = 'none';
+                });
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<Html>
+<Head>
+<Meta CharSet = "Utf-8">
+<Meta Name = "ViewPort" Content = "Width=Device-Width, Initial-Scale = 1.0">
+<Title>Decibel Note</Title>
+<Link Rel = "StyleSheet" Href = "Css.Css">
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-storage.js"></script>
+<Link Rel = "PreConnect" Href = "https://fonts.googleapis.com">
+<Link Rel = "PreConnect" Href = "https://fonts.gstatic.com" CrossOrigin>
+<Link Href = "https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" Rel = "StyleSheet">
+</Head>
+<Body>
+  <Div Id = "Loader" Align = "Center">
+  <Img Src = "Images/Gif.gif" Width = "270Px" Height = "200Px" Alt = "Logo">
+<H1><a href="c:\users\user\desktop\decibel\index.html"></H1>
+  <Div Class = "Loading"></Div>
+  </Div>
+  <Script>
+  document.addEventListener('DOMContentLoaded', function () {
+      setTimeout(function () {
+          var block = document.getElementById('Loader');
+          block.classList.add('hidden');
+
+          // Дополнительно можно удалить блок из DOM через 1 секунду после анимации
+          setTimeout(function () {
+              block.style.display = 'none';
+          }, 1000);
+      }, 1000);
+  });
+
+  </Script>
+<Div Id = "TopImage">
+<Imd Src = "Images/Top.png" />
+</Div>
+<Div Id = "LeftImage">
+<Imd Src = "Images/Left.png" />
+</Div>
+<Div Id = "RightImage">
+<Imd Src = "Images/Right.png" />
+</Div>
+<Div Id = "BottomImage">
+<Imd Src = "Images/Bottom.png" />
+</Div>
+
+<Div Id = "DecibelNote" Class = "container">
+
+</Div>
+<div id="Authentification">
+       <div id="Login" class="Login">
+           <h4 align="left">Вход в облако</h4>
+           <a href="#"><button class="RightButton"><img src="Images/Close.png"/></button></a>
+           <h2>Войдите в Decibel Cloud</h2>
+           <input type="email" id="Email" placeholder="Email">
+           <input type="password" id="PassWord" placeholder="Пароль">
+           <button id="LoginButton">Войти</button>
+           <p>Нет учётной записи? <span id="changeToRegisterButton">Создайте её здесь!</span></p>
+       </div>
+
+       <div id="Register" class="Register hidden">
+           <h4 align="left">Decibel Cloud</h4>
+           <a href="#"><button class="RightButton"><img src="Images/Close.png"/></button></a>
+           <h2>Создать аккаунт Decibel Note</h2>
+           <input type="email" id="register-email" placeholder="Email">
+           <input type="password" id="register-password" placeholder="Пароль">
+           <button id="register-button">Создать аккаунт</button>
+           <p>Уже есть аккаунт? <span id="changeToLoginButton">Войти здесь!</span></p>
+       </div>
+   </div>
+
+          <script>
+function setNegativeMarginTop() {
+            var block2Height = document.querySelector('.Login').offsetHeight;
+            document.querySelector('.Register').style.marginTop = -block2Height + 'px';
+        }
+
+        // Устанавливаем отрицательный margin-top при загрузке страницы
+        document.addEventListener("DOMContentLoaded", setNegativeMarginTop);
+
+        // Пересчитываем отрицательный margin-top при изменении размера окна
+        window.addEventListener("resize", setNegativeMarginTop);
+    </script>
+<Script>
+document.addEventListener("DOMContentLoaded", function() {
+    const loginDiv = document.getElementById("Login");
+    const registerDiv = document.getElementById("Register");
+    const changeToRegisterButton = document.getElementById("changeToRegisterButton");
+    const changeToLoginButton = document.getElementById("changeToLoginButton");
+
+    changeToRegisterButton.addEventListener("click", function() {
+        loginDiv.classList.add("hidden");
+        registerDiv.classList.remove("hidden");
+    });
+
+    changeToLoginButton.addEventListener("click", function() {
+        registerDiv.classList.add("hidden");
+        loginDiv.classList.remove("hidden");
+    });
+});
+
+</Script>
+
+
+<Script Src = "JavaScript.Js"></Script>
+</Body>
+</Html>

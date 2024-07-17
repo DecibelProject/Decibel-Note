@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Creator</title>
+    <link rel="stylesheet" href="DecibelEditorCss.Css">
+</head>
+<body>
+    <button id="createProjectBtn">Создать проект</button>
+
+    <!-- Модальное окно для ввода имени проекта -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeProjectModal">&times;</span>
+            <h2>Создать проект</h2>
+            <input type="text" id="projectName" placeholder="Введите имя проекта">
+            <button id="createProject">Создать</button>
+        </div>
+    </div>
+
+    <!-- Модальное окно для выбора типа файла -->
+    <div id="fileTypeModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeFileTypeModal">&times;</span>
+            <h2>Создать файл</h2>
+            <select id="fileType">
+                <option value=".html">.Html</option>
+                <option value=".css">.Css</option>
+                <option value=".js">.Js</option>
+            </select>
+            <button id="selectFileType">Выбрать</button>
+        </div>
+    </div>
+
+    <!-- Модальное окно для ввода имени файла -->
+    <div id="fileNameModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeFileNameModal">&times;</span>
+            <h2>Введите имя файла</h2>
+            <input type="text" id="fileName" placeholder="Введите имя файла">
+            <button id="saveFile">Сохранить</button>
+        </div>
+    </div>
+
+    <!-- Текстовый редактор -->
+    <div id="editorModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeEditorModal">&times;</span>
+            <h2>Редактор</h2>
+            <textarea id="editor" rows="20" cols="50"></textarea>
+            <button id="saveContent">Сохранить</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.6.0/jszip.min.js"></script>
+    <script src="DecibelEditorJavaScript.Js"></script>
+</body>
+</html>
